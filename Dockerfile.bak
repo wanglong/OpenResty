@@ -27,7 +27,7 @@ RUN set -x \
  && make install \
  && echo "==> Finishing..." \
  && cd .. && pwd && ls -l \
- && cp -rfp ./resty/*  /usr/local/openresty/lualib/resty/	\
+ && cp -rfp /root/resty/*  /usr/local/openresty/lualib/resty/	\
  && rm -rf /root/ngx_openresty*	\
  && rm -rf /root/nginx_http_push_module-master.zip	\
  && ln -s /usr/local/openresty/nginx/sbin/nginx /usr/bin/nginx

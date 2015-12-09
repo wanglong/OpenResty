@@ -1,5 +1,5 @@
 #Dockerfile
-FROM daocloud.io/geyijun/basic_image:v0.01
+FROM daocloud.io/geyijun/basic_image_super:v0.03
 MAINTAINER geyijun<geyijun@xiongmaitech.com>
 
 COPY resty/ /root/resty/

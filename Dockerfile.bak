@@ -2,7 +2,7 @@
 FROM daocloud.io/geyijun/basic_image:v0.01
 MAINTAINER geyijun<geyijun@xiongmaitech.com>
 
-COPY resty /root/resty
+COPY resty/ /root/resty/
 COPY nginx_http_push_module-master.zip /root/
 RUN set -x \
  && cd /root \
